@@ -28,6 +28,14 @@
     button:hover {
         background-color: wheat;
     }
+
+    main {
+        background-image: url("assets/phf3OE.jpg");
+        min-height: 100vh;
+        height: 100%;
+        width: 100vw;
+        background-position:center;
+    }
     button {
         border-radius: 10px;
         padding: 20px;
@@ -56,16 +64,12 @@
     }
     .wrapper {
         width:100vw;
-        background-image: url("assets/phf3OE.jpg");
-        background-position:center;
-        background-size: cover;
-        
     }
     section {
        height: 100%;
         position: relative;
         display: flex;
         flex-wrap: wrap;
-        background-image: url("assets/phf3OE.jpg");
+        
       
     }
